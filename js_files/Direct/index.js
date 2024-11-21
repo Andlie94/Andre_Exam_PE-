@@ -26,7 +26,7 @@ async function displayOstlandetBlogPosts() {
             `;
 
       postElement.addEventListener("click", () => {
-        window.location.href = `blogpost.html?id=${post.id}`;
+        window.location.href = `HTML_files/blogpost.html?id=${post.id}`;
       });
 
       ostlandetContainer.appendChild(postElement);
@@ -58,7 +58,7 @@ async function displayBlogPosts() {
             `;
 
       postElement.addEventListener("click", () => {
-        window.location.href = `blogpost.html?id=${post.id}`;
+        window.location.href = `HTML_files/blogpost.html?id=${post.id}`;
       });
 
       blogContainer.appendChild(postElement);

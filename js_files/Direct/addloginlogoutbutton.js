@@ -28,7 +28,7 @@ function logout() {
   
       loginButton.id = 'login-button';
       loginButton.className = 'logginn';
-      loginButton.href = 'login.html';
+      loginButton.href = 'HTML_files/login.html';
   
       blogContainer.appendChild(loginButton);
     }
